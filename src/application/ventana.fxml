@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="617.0" prefWidth="517.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane fx:id="pane1" prefHeight="617.0" prefWidth="517.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="526.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="498.0" fitWidth="335.0" layoutX="104.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="111.0" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="103.30496215820312" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../../images/0.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="122.0" layoutY="539.0" onAction="#nextAction" prefHeight="51.0" prefWidth="280.0" ripplerFill="#f7ec02" style="-fx-background-color: #FB9038; -fx-background-radius: 50px;" text="Guía de usuario" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="122.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="539.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" prefHeight="617.0" prefWidth="517.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="535.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-11.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="232.79473876953125" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/1.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="379.0" layoutY="531.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="#0a0a0a" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font name="Rage Italic" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="74.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label alignment="CENTER" layoutX="116.0" layoutY="530.0" prefHeight="17.0" prefWidth="269.0" text="2/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="51.0" prefHeight="121.0" prefWidth="211.0" text="Si ya eres usuario ¡Empieza a comprar!" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="451.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="51.0">
+               <font>
+                  <Font name="Bodoni MT Black Italic" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="297.0" prefHeight="161.0" prefWidth="211.0" text="Si no lo eres, puedes ingresar con tu cuenta de Facebook o mediante nuestro formulario." textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="297.0">
+               <font>
+                  <Font name="Bodoni MT Black Italic" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="162.0" prefHeight="135.0" prefWidth="211.0" text="¿Olvidaste tu contraseña? Ponte en contacto con nosotros." textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="326.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="14.65728759765625" AnchorPane.topAnchor="162.0">
+               <font>
+                  <Font name="Bodoni MT Black Italic" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="458.0" onMouseClicked="#cerrarProyecto" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="569.0" AnchorPane.leftAnchor="458.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" prefHeight="617.0" prefWidth="517.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="526.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="0.092193603515625" AnchorPane.rightAnchor="227.90780639648438" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/2.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="393.0" layoutY="531.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="#0d0d0d" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="94.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="#070707" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="298.0" layoutY="-17.0" prefHeight="440.0" prefWidth="211.0" text="La funcionalidad del registro permite conectarse mediante el formulario o desde una cuenta de Facebook." textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="196.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="-17.0">
+               <font>
+                  <Font name="Bodoni MT Black" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="524.0" prefHeight="17.0" prefWidth="269.0" text="3/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="456.0" layoutY="14.0" onMouseClicked="#cerrarProyecto" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="555.0" AnchorPane.leftAnchor="456.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="617.0" prefWidth="517.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="539.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-15.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="0.092193603515625" AnchorPane.rightAnchor="227.90780639648438" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/3.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="393.0" layoutY="531.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="#0d0d0d" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="94.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="#070707" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="298.0" layoutY="54.0" prefHeight="408.0" prefWidth="217.0" text="El motor de búsqueda rastrea la mejor oferta en un supermercado y la muestra resaltándola de las demás como se muestra en la siguiente imagen. " textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="54.0">
+               <font>
+                  <Font name="Bodoni MT Black" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="524.0" prefHeight="17.0" prefWidth="269.0" text="4/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="470.0" onMouseClicked="#cerrarProyecto" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane5" layoutX="10.0" layoutY="10.0" onMouseClicked="#cerrarProyecto" prefHeight="617.0" prefWidth="517.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="539.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-15.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="0.092193603515625" AnchorPane.rightAnchor="227.90780639648438" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/4.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="393.0" layoutY="531.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="#0d0d0d" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="94.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="#070707" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="301.0" prefHeight="520.0" prefWidth="211.0" text="Aquí mostramos un resultado en el que la oferta más barata resalta sobre el resto y un scroll que nos permitirá ver el resto ordenadas por precio. El número de unidades se modifica en tiempo real con lo que no hace falta un botón de “a la cesta”." textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="103.0" AnchorPane.leftAnchor="301.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Bodoni MT Black" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="524.0" prefHeight="17.0" prefWidth="269.0" text="5/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="461.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="564.0" AnchorPane.leftAnchor="461.0" AnchorPane.rightAnchor="8.83331298828125" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="461.0" layoutY="5.0" onMouseClicked="#cerrarProyecto" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="564.0" AnchorPane.leftAnchor="461.0" AnchorPane.rightAnchor="8.83331298828125" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane6" layoutX="10.0" layoutY="10.0" prefHeight="617.0" prefWidth="517.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="539.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-15.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="0.092193603515625" AnchorPane.rightAnchor="227.90780639648438" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/5.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="393.0" layoutY="531.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="#0d0d0d" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="94.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="#070707" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="298.0" layoutY="60.0" prefHeight="398.0" prefWidth="217.0" text="Una vez que se ha almacenado el producto vemos en el apartado “Tu cesta” su contenido. Se ha integrado un scroll para facilitar el acceso entre todos los productos de la compra que hayamos seleccionado." textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="60.0">
+               <font>
+                  <Font name="Bodoni MT Black" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="524.0" prefHeight="17.0" prefWidth="269.0" text="6/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="460.0" layoutY="6.0" onMouseClicked="#cerrarProyecto" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="563.0" AnchorPane.leftAnchor="460.0" AnchorPane.rightAnchor="9.83331298828125" AnchorPane.topAnchor="6.0">
+               <image>
+                  <Image url="@../../images/10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane7" layoutX="10.0" layoutY="10.0" prefHeight="617.0" prefWidth="517.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="539.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-15.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="458.0" fitWidth="310.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="0.092193603515625" AnchorPane.rightAnchor="227.90780639648438" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../images/6.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="94.0" layoutY="531.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="#070707" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="299.0" layoutY="-39.0" prefHeight="520.0" prefWidth="217.0" text="En la ventana “Pagar” obtendremos un resumen con el desglose del producto con su precio total y gastos de envío incluidos. La factura se imprime en un PDF después de la realización del pago. " textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="142.0" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="-39.0">
+               <font>
+                  <Font name="Bodoni MT Black" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="524.0" prefHeight="17.0" prefWidth="269.0" text="7/7" textAlignment="CENTER" textFill="#111111" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="524.0">
+               <font>
+                  <Font name="Rage Italic" size="41.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="370.0" layoutY="531.0" onAction="#cerrarProyecto" prefHeight="54.0" prefWidth="100.0" ripplerFill="#10e1e5" style="-fx-background-radius: 50px; -fx-background-color: #00000020;" text="Salir" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="531.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
